@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나이 계산하기</title>
+</head>
+<body>
+    <script>
+        let birthYear = prompt("태어난 연도를 입력하세요")
+        const age = new Date().getFullYear() - birthYear + 1
+
+        document.write("<h1>"  + age + "</h1>")
+
+    </script>
+</body>
+</html>
